@@ -18,6 +18,7 @@ public class JenkinApplication {
 	public static void main(String[] args) {
 		
 		logger.info("Application executed from main");
+		logger.info("Application executed from main @@@@@");
 		SpringApplication.run(JenkinApplication.class, args);
 	}
 
